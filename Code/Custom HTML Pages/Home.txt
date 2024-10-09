@@ -1,0 +1,20 @@
+<section>
+    <h1>We are <br><em>experts</em> in <em>respirometry</em></h1>
+    <p>
+        At Strathkelvin Instruments, we are suppliers of precision <em>respirometry</em> and <em>dissolved oxygen</em> instruments.
+    </p>
+    <p>
+        Our instruments are primarily used for biomedical research, wastewater treatment and product testing.
+    </p>
+    <h2 style="text-align: center; padding-top: 10px;">View Our Main Sections</h2>
+    <div class="main-sections">
+        <a class="biomed" href="respirometry-research/index.html">
+            <h3>Respirometry Research</h3>
+            <img alt="Respirometry Research" src="resources/images/respirometry-research.jpg">
+        </a>
+        <a class="wastewater" href="wastewater-treatment/index.html">
+            <h3>Wastewater Treatment</h3>
+            <img alt="Wastewater Treatment" src="resources/images/wastewater-treatment.jpg">
+        </a>
+    </div>
+</section>
