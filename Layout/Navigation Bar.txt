@@ -1,0 +1,24 @@
+@Link(Home)[Home]
+
+@Link(About Us)[About Us]
+
+@Link(Respirometry Research/Home)[Respirometry Research]
+	@Link(Respirometry Research/Products)[Products]
+	@Link(Respirometry Research/Dissolved Oxygen Measurement System)[Dissolved Oxygen Measurement System]
+
+@Link(Wastewater Treatment/Home)[Wastewater Treatment]
+	@Link(Wastewater Treatment/Products)[Products]
+		@ProductLink(ASP-Con)[ASP-Con]
+		@ProductLink(Strathtox)[Strathtox^(TM)]
+		@ProductLink(AS-Bioscope)[AS-Bioscope]
+	@Link(Wastewater Treatment/Testing Services)[Testing Services]
+	@Link(Wastewater Treatment/ASP-Con Range)[ASP-Con Range]
+
+@Link(All Products)[All Products]
+
+@Link(Contact Us)[Contact Us]
+
+@Link(Other)[Other]
+	@Link(Ordering Information)[Ordering Information]
+	@Link(Distributors)[Distributors]
+	@Link(Terms and Conditions)[Terms and Conditions]

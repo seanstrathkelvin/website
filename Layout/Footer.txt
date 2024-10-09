@@ -1,0 +1,33 @@
+LEFT ITEM
+
+~Strathkelvin Instruments Limited~
+Rowantree Avenue
+North Lanarkshire
+ML1 5RX
+Scotland
+United Kingdom
+
+RIGHT ITEM
+
+@BeginTable
+<!DOCTYPE html>
+
+<html>   
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/379395f89c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<a href="https://www.instagram.com/strathkelvininstruments/" target=”_blank”><i class="fa-brands fa-instagram"></i></a>
+
+<a href="https://www.youtube.com/@StrathkelvinInstruments/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+
+<a href="https://www.linkedin.com/company/strathkelvin-instruments-ltd/" target=_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+<a href="https://www.facebook.com/profile.php?id=61567101472839/" target=_blank"><i class="fa-brands fa-facebook"></i></a>       
+
+</body>
+</html>
+
+@EndTable
