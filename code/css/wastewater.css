@@ -1,0 +1,15 @@
+:root {
+    --colour-4: var(--wwcolour-4);
+    --colour-3: var(--wwcolour-3);
+    --colour-2: var(--wwcolour-2);
+    --colour-1: var(--wwcolour-1);
+    --colour0: var(--wwcolour0);
+    --colour1: var(--wwcolour1);
+    --colour2: var(--wwcolour2);
+    --colour3: var(--wwcolour3);
+    --colour4: var(--wwcolour4);
+}
+
+body > header img {
+    filter: invert(34%) sepia(58%) saturate(6309%) hue-rotate(345deg) brightness(98%) contrast(113%);
+}

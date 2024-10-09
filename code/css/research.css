@@ -1,0 +1,15 @@
+:root {
+    --colour-4: var(--bmcolour-4);
+    --colour-3: var(--bmcolour-3);
+    --colour-2: var(--bmcolour-2);
+    --colour-1: var(--bmcolour-1);
+    --colour0: var(--bmcolour0);
+    --colour1: var(--bmcolour1);
+    --colour2: var(--bmcolour2);
+    --colour3: var(--bmcolour3);
+    --colour4: var(--bmcolour4);
+}
+
+body > header img {
+    filter: invert(24%) sepia(65%) saturate(6381%) hue-rotate(269deg) brightness(100%) contrast(108%);
+}
