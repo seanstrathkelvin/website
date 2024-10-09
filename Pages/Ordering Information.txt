@@ -1,0 +1,37 @@
+--Placing an Order--
+You may order directly from Strathkelvin Instruments if we do not have a distributor in your country. The distributors of our respirometry research and wastewater treatment products can be found on our @Link(Distributors)[distributors] page.
+
+Before placing an order for a respirometry research product, you may find our @Link(Respirometry Research/Dissolved Oxygen Measurement System)[respirometry system] page helpful in compiling your order.
+
+When ordering from us, please specify:
+* Name
+* Product Number
+* Quantity
+
+
+--Dispatch--
+We aim to have all items available in stock. If any item is temporarily out of stock, we will dispatch what is available immediately, and the remaining items will be forwarded as soon as possible.
+
+Dispatch is by courier, which is fast and reliable. Special export packaging is used for protection of the instruments and accessories while in transit.
+
+
+--Warranty--
+Our instruments are guaranteed for one year from the date of dispatch. 
+
+Electrodes are guaranteed for one month. It is not possible to provide a longer guarantee period than this with electrodes as their life is dependent upon the care exercised by the operator.
+
+
+--Servicing--
+Servicing requirements are very unlikely to arise. If we do not yet have a service agent in your country, we will service your instrument within 48 hours if you return it to us.
+
+
+--Payment Terms--
+Payment must be made in the currency stipulated within 30 days of invoice, with all commissions paid by the purchasers.
+
+If you would like specialist advice for your particular application, please fax, telephone or email us, using the information found on our @Link(Contact Us)[contact] page.
+
+
+
+
+
+

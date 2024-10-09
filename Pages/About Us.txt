@@ -1,0 +1,30 @@
+--History--
+We have been developing and marketing laboratory dissolved oxygen instrumentation since 1981 and are recognised as one of the leaders in this field. You will see our instruments in use in major laboratories throughout the world. 
+ 
+All our instruments are based upon microcathode oxygen electrodes, which were originally developed for use in the demanding conditions of clinical blood gas analysis, and which can be used, when required, without stirring of the medium.                               
+ 
+The electrodes are used with accessories, which have been designed for specific laboratory applications. 
+
+--Expansion into Wastewater Treatment--
+In 1998, the opportunity arose to exploit the technology of a respirometer designed for biomedical research, for use in activated sludge respirometry. 
+ 
+Initially the respirometry software was directed towards toxicity testing, since there was no method anywhere in the world that would measure and calculate toxicity of wastewater to the actual activated sludge of the receiving works, in as little as 5-10 mins. 
+
+Subsequently, it became clear that, since respirometry is one of the three major processes in biological treatment (biodegradation, growth and respiration), by adding additional software, the respirometer could be used as a major tool in process control in treatment works. 
+
+--World Firsts--
+In 1995, following extensive development work, we launched the world's first six-electrode system with Windows software. This system is used for monitoring oxygen levels or for either closed cell or flow-through respirometry. It offers both dramatic time-saving and increased accuracy in carrying out these experiments. 
+ 
+In 1999, Strathkelvin Instruments opened its wastewater division, offering the world's first 6-electrode respirometer for testing the inhibition of respiration by activated sludge by toxic wastewaters. 
+ 
+In 2001, we launched the world's smallest respirometer cell - 50µl - for use with mitochondria isolated from biopsy samples. 
+ 
+In 2002, we launched the 782 oxygen meter, to enable respiration rates to be recorded on PC using either 1 or 2 respirometer cells. Another world first. 
+ 
+In 2005, we launched the MS200 Mitocell - a complete system for mitochondrial respiration research that includes dedicated software.
+
+--Quality Policy--
+We pride ourselves on the precision, quality and ease of use of our products. Everything from individual accessories to instrument manuals comes under quality control scrutiny. In addition we offer excellent technical backup. 
+
+Our technical advisors are research scientists involved in dissolved oxygen measurement. If you would like to contact us by phone, fax or email, you will be able to communicate directly with someone who will understand your application and will be able to advise. Our contact details can be found @Link(Contact Us)[here].
+

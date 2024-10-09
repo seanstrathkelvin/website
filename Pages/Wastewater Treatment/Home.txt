@@ -1,0 +1,9 @@
+We specialise in wastewater treatment instrumentation for ~activated sludge plants~. With decades of experience with ~dissolved oxygen~ measurement, we offer a range of products and services for wastewater ~respirometry~ and ~toxicity testing~.
+
+@ProductsSection(Wastewater Treatment)
+
+@Section(Wastewater Treatment/Testing Services)
+
+@ProductSection(ASP-Con)
+
+@ProductSection(Strathtox)
