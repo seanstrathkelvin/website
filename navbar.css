@@ -1,0 +1,226 @@
+:root {
+  --wwcolour-4: #480403;
+  --wwcolour-3: #630806;
+  --wwcolour-2: #800d0b;
+  --wwcolour-1: #be1916;
+  --wwcolour0: #ff2521;
+  --wwcolour1: #ff6657;
+  --wwcolour2: #ff9182;
+  --wwcolour3: #ffb7ab;
+  --wwcolour4: #ffcac0;
+  --bmcolour-4: #2a0348;
+  --bmcolour-3: #3c0663;
+  --bmcolour-2: #4f0b80;
+  --bmcolour-1: #7816be;
+  --bmcolour0: #a321ff;
+  --bmcolour1: #b463ff;
+  --bmcolour2: #c68fff;
+  --bmcolour3: #d9b6ff;
+  --bmcolour4: #e2c8ff;
+  --skcolour-4: #010b2e;
+  --skcolour-3: #062263;
+  --skcolour-2: #0b2e80;
+  --skcolour-1: #1648be;
+  --skcolour0: #2164FF;
+  --skcolour1: #4f88ff;
+  --skcolour2: #7aa8ff;
+  --skcolour3: #a5c6ff;
+  --skcolour4: #bbd5ff;
+  --colour-4: var(--skcolour-4);
+  --colour-3: var(--skcolour-3);
+  --colour-2: var(--skcolour-2);
+  --colour-1: var(--skcolour-1);
+  --colour0: var(--skcolour0);
+  --colour1: var(--skcolour1);
+  --colour2: var(--skcolour2);
+  --colour3: var(--skcolour3);
+  --colour4: var(--skcolour4);
+}
+
+
+
+body > nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  background-color: var(--colour0);
+  z-index: 100;
+  width: 100%;
+}
+
+body > nav * {
+  list-style-type: none;
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body > nav :is(li, a, p) {
+  display: inline-block;
+}
+
+body > nav :is(a, p) {
+  padding: 14px 16px;
+}
+
+body > nav ul, body > nav > :is(a, p) {
+  display: none;
+}
+
+body > nav > ul {
+  display: flex;
+}
+
+body > nav > a:hover {
+  color: var(--colour0);
+  background-color: white;
+}
+
+body > nav > a:hover sup {
+  color: var(--colour0);
+  background-color: white;
+}
+
+body > nav li:hover > :is(a, p) {
+  color: var(--colour0);
+  background-color: white;
+}
+
+.selected {
+  background-color: var(--colour1);
+}
+
+body > nav li:hover > ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+body > nav ul ul > li > :is(a, p) {
+  background-color: var(--colour-1);
+  width: 200px;
+}
+
+body > nav > ul > li > ul > li > ul {
+  left: 232px;
+  top: 0;
+}
+
+body > nav :is(a, p) * {
+  display: unset;
+  color: inherit;
+  transition: inherit;
+}
+
+body > nav :is(a, p):hover * {
+  display: unset;
+  color: inherit;
+  transition: inherit;
+}
+
+body > nav > a:first-child {
+  display: none;
+  padding: 0 5px;
+  margin: 0;
+  height: 49px
+}
+
+body > nav > a:first-child > img {
+  height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  body > nav > ul {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  body > nav > ul > li > :is(a, p) {
+      min-width: 200px;
+      background-color: var(--colour-1);
+  }
+
+  body > nav > :is(a, p) {
+      display: inline-block;
+  }
+
+  body > nav {
+      justify-content: space-between;
+  }
+
+  body > nav li:hover > ul {
+      display: none;
+  }
+
+  body > nav > a:first-child {
+      display: inline-block;
+      position: fixed;
+      top: 0;
+      left: 0;
+  }
+
+  body > nav > a:first-child:hover {
+      color: unset;
+      background-color: unset;
+  }
+
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --primary : black;
+  --secondary : #2164FF;
+  --white : white;   
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--secondary);
+}
+
+#main {
+  background-color: white;
+  min-height: 70vh;
+  background-position: bottom center;
+  background-size: cover;
+  
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  padding: 16px;
+  margin: auto;
+}
+
+nav {
+  display: inline-block;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+}
+.nav-list a {
+  color: white;
+  background-color: #2164FF;
+}
