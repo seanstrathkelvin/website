@@ -1,0 +1,36 @@
+body > header {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    font-size: clamp(1rem, 0.006666667 * 100vw + 0.866666667rem, 1.2rem);
+    text-align: center;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    z-index: 200;
+}
+
+body > header img {
+    max-height: 150px;
+    height: 100%;
+    filter: invert(32%) sepia(65%) saturate(5076%) hue-rotate(219deg) brightness(103%) contrast(101%);
+}
+
+body > header p {
+    font-size: clamp(1rem, 0.006666667 * 100vw + 0.866666667rem, 1.2rem);
+}
+
+@media screen and (max-width: 600px) {
+    body > header > :last-child {
+        display: none;
+  }
+
+    body > header {
+        justify-content: center;
+    }
+
+    body > header img {
+        height: unset;
+        width: 100%;
+    }
+}

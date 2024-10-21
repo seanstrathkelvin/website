@@ -1,0 +1,563 @@
+:root {
+  --wwcolour-4: #480403;
+  --wwcolour-3: #630806;
+  --wwcolour-2: #800d0b;
+  --wwcolour-1: #be1916;
+  --wwcolour0: #ff2521;
+  --wwcolour1: #ff6657;
+  --wwcolour2: #ff9182;
+  --wwcolour3: #ffb7ab;
+  --wwcolour4: #ffcac0;
+  --bmcolour-4: #2a0348;
+  --bmcolour-3: #3c0663;
+  --bmcolour-2: #4f0b80;
+  --bmcolour-1: #7816be;
+  --bmcolour0: #a321ff;
+  --bmcolour1: #b463ff;
+  --bmcolour2: #c68fff;
+  --bmcolour3: #d9b6ff;
+  --bmcolour4: #e2c8ff;
+  --skcolour-4: #010b2e;
+  --skcolour-3: #062263;
+  --skcolour-2: #0b2e80;
+  --skcolour-1: #1648be;
+  --skcolour0: #2164FF;
+  --skcolour1: #4f88ff;
+  --skcolour2: #7aa8ff;
+  --skcolour3: #a5c6ff;
+  --skcolour4: #bbd5ff;
+  --colour-4: var(--skcolour-4);
+  --colour-3: var(--skcolour-3);
+  --colour-2: var(--skcolour-2);
+  --colour-1: var(--skcolour-1);
+  --colour0: var(--skcolour0);
+  --colour1: var(--skcolour1);
+  --colour2: var(--skcolour2);
+  --colour3: var(--skcolour3);
+  --colour4: var(--skcolour4);
+  /*background-image: linear-gradient(to bottom right, var(--colour-3), var(--colour2));*/
+  background-color: white;
+  font-size: 12pt;
+}
+
+div.main-sections {
+  display: flex;
+  flex-direction: row;
+}
+
+div.main-sections > a {
+  width: 50%;
+}
+
+div.main-sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 100%;
+}
+
+div.main-sections > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  flex-grow: 1;
+  transition: background 0.5s ease-in-out;
+  text-decoration: none;
+  transition: scale 0.5s;
+}
+
+div.main-sections > a img {
+  width: 100%;
+  border-radius: 20px;
+  height: 150px;
+  object-fit: cover;
+}
+
+div.main-sections > a h3 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  color: white;
+}
+
+div.main-sections > a:hover {
+  cursor: pointer;
+  scale: 1.05;
+}
+
+div.main-sections > a.biomed {
+  background-color: var(--bmcolour0);
+}
+
+div.main-sections > a.biomed:hover {
+  background-color: var(--bmcolour-1);
+}
+
+div.main-sections > a.wastewater {
+  background-color: var(--wwcolour0);
+}
+
+div.main-sections > a.wastewater:hover {
+  background-color: var(--wwcolour-1);
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--colour0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: 100%;
+}
+
+h1, h2, h3, p, em, a, sup, sub {
+  transition: color 0.5s, background-color 0.5s ease-in-out;
+}
+
+main a {
+  color: var(--colour0);
+}
+
+main a:visited {
+  color: #2164FF;
+}
+
+div {
+  transition: background-color 0.5s ease-in-out;
+}
+
+h1, h2, h3 {
+  text-decoration: none;
+  font-weight: normal;
+  color: var(--colour0);
+  margin: 10px 15px;
+}
+
+h2 > a {
+  text-decoration: none;
+  font-weight: normal;
+  color: var(--colour0);
+}
+
+h1 em {
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1 {
+  font-size: clamp(1.3rem, 0.03 * 100vw + 0.7rem, 2.2rem);
+  text-align: center;
+}
+
+h2 {
+  font-size: clamp(1.2rem, 0.016667 * 100vw + 0.8667rem, 1.7rem);
+  margin-top: 0;
+}
+
+h3 {
+  font-size: clamp(1.1rem, 0.01 * 100vw + 0.9rem, 1.4rem);
+}
+
+h4 {
+  font-size: clamp(1.1rem, 0.01 * 100vw + 0.9rem, 1.4rem);
+  text-align: center;
+  color: #0b2e80;
+  margin-bottom: 10px
+
+}
+
+h5 {
+  font-size: clamp(0.8333333rem, 0.02222223 * 100vw + 0.555546667rem, 1rem);
+  text-align: left;
+  color: #2164FF;
+}
+
+
+p {
+  margin: 10px 10px;
+  font-size: clamp(0.8333333rem, 0.02222223 * 100vw + 0.555546667rem, 1rem);
+}
+
+p em, li em {
+  font-weight: bold;
+  font-style: normal;
+  color: var(--colour0);
+}
+
+p > a {
+  color: var(--colour0);
+}
+
+p > a:visited, p > a:visited * {
+  color: var(--colour-2)
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+  ol > ol {
+      list-style-type: lower-roman;
+  }
+
+button {
+  background-color: var(--colour0);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: clamp(1.1rem, 0.0033333 * 100vw + 1.03333rem, 1.2rem);
+  justify-self: center;
+  transition: scale 0.5s;
+}
+
+button:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+sup {
+  font-size: 50%;
+  color: inherit;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: stretch;
+  padding: clamp(1.5625rem, 0.0416666666666667 * 100vw + 0.729166666666667rem, 2.8125rem);
+  gap: clamp(1.5625rem, 0.0416666666666667 * 100vw + 0.729166666666667rem, 2.8125rem);
+  background-color: var(--colour-2);
+  transition: background-color 0.5s ease-in-out;
+}
+
+main > :is(header ,footer) {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+main >:is(header ,footer) > :is(h1, h2) {
+  background-color: white;
+  margin: 0;
+  border-radius: 40px;
+  padding: 20px;
+  align-content: center;
+}
+
+main > :is(header ,footer) > section {
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 40px;
+  padding: 20px;
+}
+
+main > :is(header ,footer) > section p {
+  width: 80%;
+  text-align: center;
+}
+
+main li {
+  margin: 20px;
+}
+
+main > header p {
+  color: black;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  color:black;
+  min-height: 200px;
+  gap: clamp(1.5625rem, 0.0416666666666667 * 100vw + 0.729166666666667rem, 2.8125rem);
+  max-width: 690px;
+  width: 100%;
+}
+
+article > section {
+  background-color: white;
+  border-radius: 40px;
+  padding: 20px;
+  scroll-margin-top: 75px;
+}
+
+article > section > img {
+  float: right; 
+  margin: 10px; 
+  max-width: 60%; 
+  height: 200px;
+}
+
+/*
+article > section:nth-child(even) {
+  text-align: right;
+}
+
+article > section:nth-child(even) img {
+  float: left;
+}
+*/
+
+article > div {
+  display: flex;
+  flex-direction: row;
+  gap: clamp(1.5625rem, 0.0104166666666667 * 100vw + 1.35416666666667rem, 1.875rem);
+}
+
+article > div > section {
+  width: 50%;
+  background-color: white;
+  border-radius: 40px;
+  padding: 20px;
+  scroll-margin-top: 80px;
+}
+
+aside {
+  position: sticky;
+  top: 80px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  min-height: 200px;
+  gap: clamp(1.5625rem, 0.0104166666666667 * 100vw + 1.35416666666667rem, 1.875rem);
+}
+
+aside > * {
+  width: 100%;
+  max-width: 250px;
+  background-color: white;
+  border-radius: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+aside > * > a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  width: 90%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+aside > * > a:visited {
+  color: black;
+}
+
+aside > * > a:hover {
+  background-color: var(--colour0);
+  color: white;
+}
+
+aside > * > * {
+  text-align: center;
+  margin-top: 0;
+}
+
+#Product_Details > img {
+  width: 40%;
+  height: unset;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+  background-color: white;
+  float: left;
+  border-radius: 20px;
+}
+
+section.gallery {
+  flex-grow: 1;
+}
+
+div.gallery {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: center;
+  width: 100%;
+}
+
+div.gallery > a {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px;
+  border-radius: 20px;
+  transition: background 0.5s ease-in-out, border 0.5s;
+  text-decoration: none;
+  border: 3px solid var(--colour0);
+  overflow: hidden;
+  color: rgb(0, 0, 0);
+  padding: 0;
+  justify-self: center;
+  transition: scale 0.5s;
+}
+
+div.gallery > a:hover {
+  background-color: var(--colour0);
+  border-color: var(--colour-1);
+  cursor: pointer;
+  scale: 1.05;
+}
+
+div.gallery > a * {
+  margin: 7px 7px;
+  padding: 0;
+}
+
+div.gallery > a > div {
+  margin: 0;
+}
+
+div.gallery > a img {
+  margin: 0;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background-color: white;
+  max-width: 100%;
+  max-height: 150px;
+  margin: 0;
+}
+
+div.gallery > a sup, div.gallery > a sub {
+  margin: 0;
+  padding: 0;
+}
+
+div.gallery > a > p, div.gallery > a > p * {
+  color: var(--colour0);
+  align-content: center;
+  margin: 0;
+}
+
+div.gallery > a > p:last-child {
+  color: black;
+  margin: 10px 7px;
+  flex-grow: 1;
+  margin-top: 5px;
+}
+
+div.gallery > a > p:last-child * {
+  color: black;
+}
+
+div.gallery > a > p:first-of-type {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+div.gallery > a:hover > p, div.gallery > a:hover > p * {
+  color: white;
+}
+
+div.video {
+  text-align: center;
+  margin: 5px;
+}
+
+iframe {
+  max-width: 530px;
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+@media screen and (max-width: 1250px) {
+  aside {
+      flex-direction: row;
+      min-height: 0;
+      position: unset;
+      justify-content: stretch;
+      align-items: stretch;
+  }
+
+  aside > * {
+      max-width: 100%;
+      width: 100%;
+  }
+
+  main > *, main > header > section {
+      max-width: 790px;
+      width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 790px) {
+  div.gallery {
+      grid-template-columns: 33% 33% 33%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+
+  main section img, #Product_Details > img {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 200px;
+      float: none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+}
+
+@media screen and (max-width: 670px) {
+  div.gallery {
+      grid-template-columns: 50% 50%;
+  }
+
+  main > article > div {
+      flex-direction: column;
+  }
+
+  main > article > div > section {
+      flex-grow: 1;
+      width: auto;
+  }
+
+  main > aside {
+      flex-direction: column;
+  }
+
+  main > aside > * {
+      width: auto;
+  }
+
+  div.main-sections {
+      flex-direction: column;
+  }
+  div.main-sections a {
+      width: auto;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  div.gallery {
+      grid-template-columns: 100%;
+  }
+}
