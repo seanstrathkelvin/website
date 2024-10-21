@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="677" height="303" viewBox="11.896 14.756 664.604 256.755" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="#000" stroke-width="6" transform="matrix(1, 0, 0, 1, 233.135944, -5.244378)">
+    <g stroke-miterlimit="10">
+      <path d="M40.5 105.5v6m92-5v-25h40v182h-40v-27m0-55v-46h-40v-21m-52 123v-39h40v30m12 0v-33m-29 68h46m-46-183h46m-58 85l30 17m7-36l28 16" pointer-events="stroke" style="paint-order: stroke; stroke: rgb(33, 100, 255);"/>
+      <path d="M80.5 138.5v-24m-40 38v-47" pointer-events="stroke" style="paint-order: stroke; stroke: rgb(33, 100, 255);"/>
+      <path d="M92.47 227.91a5.996 5.996 0 0 1-9.24 5.62 5.99 5.99 0 0 1-2.68-5.8m11.93-112.77a5.97 5.97 0 0 0-2.87-5.59 6.009 6.009 0 0 0-6.29.04c-1.92 1.2-3 3.37-2.8 5.63m51.98 121.17c.06 7.35-2.37 14.42-6.74 19.57-4.38 5.14-10.31 7.93-16.43 7.71m-68.82-26.18c.37 14.9 10.74 26.63 23.16 26.18M40.55 105.61c.85-14.45 11.05-25.53 23.12-25.1" pointer-events="all" style="paint-order: stroke; stroke: rgb(33, 100, 255);"/>
+      <path d="M132.49 106.67c-.38-14.89-10.75-26.6-23.16-26.16M92.5 196.72c.11-5.29-3.87-10.41-11.14-14.33M40.5 151.5c0 5.26 4.07 10.35 11.47 14.34m63.76-3.79c10.78 5.55 16.77 12.86 16.77 20.45" pointer-events="all" style="paint-order: stroke; stroke: rgb(33, 100, 255);"/>
+    </g>
+    <rect x="128.5" y="28.5" width="49" height="39" rx="12.48" pointer-events="all" style="paint-order: stroke; stroke: rgb(33, 100, 255);"/>
+    <path d="M89.24 146.93c-5.92-2.74-8.89-5.68-8.73-8.65" stroke-miterlimit="10" pointer-events="all" style="paint-order: stroke; stroke: rgb(33, 100, 255);"/>
+  </g>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="446.225" y="57.948"> </text>
+</svg>
